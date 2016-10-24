@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { View, NavBar } from 'amazeui-touch';
+import { View, NavBar } from 'amazeui-dingtalk';
 import { Link } from 'react-router';
 
 import Page1 from './Page1';

@@ -14,7 +14,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "amazeui-touch": "^1.0.0-rc.2",
+    "amazeui-dingtalk": "^1.0.0-beta2",
     "react": "^15.3.0",
     "react-addons-css-transition-group": "^15.3.0",
     "react-dom": "^15.3.0",

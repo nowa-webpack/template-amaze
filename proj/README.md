@@ -1,6 +1,6 @@
-# Amaze UI Touch Starter Kit
+# Amaze UI Dingtalk Starter Kit
 
-[Amaze UI Touch](https://github.com/amazeui/amazeui-touch) 快速上手套件，基于 React、Amaze UI Touch、React Router 及 Webpack 开发 SPA。
+[Amaze UI Dingtalk](http://dingtalk.amazeui.org/#/react/getting-started?_k=ff6rhq) 快速上手套件，基于 React、Amaze UI Touch、React Router 及 Webpack 开发 SPA。
 
 **套件中目前只包含客户部代码，亦未包含 Flux、Redux 等框架**。
 

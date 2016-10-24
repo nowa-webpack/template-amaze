@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Group } from 'amazeui-touch';
+import { Container, Group } from 'amazeui-dingtalk';
 
 export default class NotFound extends React.Component {
   render() {

@@ -1,32 +1,13 @@
 import React from 'react';
-import { Container, Group, Slider } from 'amazeui-touch';
-
-const sliderIntance = (
-  <Slider>
-    <Slider.Item>
-      <img alt="" src="http://s.amazeui.org/media/i/demos/bing-1.jpg" />
-    </Slider.Item>
-    <Slider.Item>
-      <img alt="" src="http://s.amazeui.org/media/i/demos/bing-2.jpg" />
-    </Slider.Item>
-    <Slider.Item>
-      <img alt="" src="http://s.amazeui.org/media/i/demos/bing-3.jpg" />
-    </Slider.Item>
-    <Slider.Item>
-      <img alt="" src="http://s.amazeui.org/media/i/demos/bing-4.jpg" />
-    </Slider.Item>
-  </Slider>
-);
+import { Container, Group } from 'amazeui-dingtalk';
 
 export default class Page2 extends React.Component {
   render() {
     return (
       <Container {...this.props}>
-        <Group
-          header="Page 2"
-          noPadded
-        >
-          {sliderIntance}
+        <Group>
+          <h2>Page 2</h2>
+          <p>页面内容</p>
         </Group>
       </Container>
     );

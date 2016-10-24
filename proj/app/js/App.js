@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { render } from 'react-dom';
 import { Router, Route, Link, IndexRoute, hashHistory } from 'react-router';
-import { Container, TabBar } from 'amazeui-touch';
+import { Container, TabBar } from 'amazeui-dingtalk';
 
 import '../style/app.styl';
 

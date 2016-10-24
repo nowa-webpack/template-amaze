@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, List, NavBar, Group, View } from 'amazeui-touch';
+import { Container, List, NavBar, Group, View } from 'amazeui-dingtalk';
 import { Link } from 'react-router';
 
 export default class Index extends React.Component {

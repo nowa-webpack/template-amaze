@@ -5,6 +5,6 @@
     "src": "app",
     "entry": "js/App.js",
     "externals": {},
-    "includes": [ "node_modules/amazeui-touch" ]
+    "includes": [ "node_modules/amazeui-dingtalk" ]
   }
 }
