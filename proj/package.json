@@ -1,0 +1,34 @@
+{
+  "name": "<%- name %>",
+  "private": true,
+  "version": "<%- version %>",
+  "author": "<%- author %>",
+  "description": "<%- description %>",
+  "homepage": "<%- homepage %>",
+  "repository": {
+    "type": "git",
+    "url": "<%- repository %>"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "amazeui-touch": "^1.0.0-rc.2",
+    "react": "^15.3.0",
+    "react-addons-css-transition-group": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-router": "^2.6.1"
+  },
+  "devDependencies": {
+    "open-cli": "^1.0.5",
+    "rimraf": "^2.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "start": "npm run clean && nowa server -o",
+    "build": "npm run clean && nowa build",
+    "preview": "npm run build && open-cli dist/index.html"
+  }
+}

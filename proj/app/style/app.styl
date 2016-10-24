@@ -1,0 +1,16 @@
+@import "~amazeui-touch/dist/amazeui.touch.css"
+
+/* Container `fade` 动画示例 */
+.view-transition-fade-enter
+  opacity 0.01
+
+.view-transition-fade-enter.view-transition-fade-enter-active
+  opacity 1
+  transition opacity 450ms ease-in
+
+.view-transition-fade-leave
+  opacity 1
+
+.view-transition-fade-leave.view-transition-fade-leave-active
+  opacity 0.01
+  transition opacity 300ms ease-in

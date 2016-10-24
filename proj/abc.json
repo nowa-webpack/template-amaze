@@ -1,0 +1,10 @@
+{
+  "options": {
+    "template": "<%- template %>",
+    "npm": "<%- npm %>",
+    "src": "app",
+    "entry": "js/App.js",
+    "externals": {},
+    "includes": [ "node_modules/amazeui-touch" ]
+  }
+}
