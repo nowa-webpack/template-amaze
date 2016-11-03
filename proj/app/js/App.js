@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { Router, Route, Link, IndexRoute, hashHistory } from 'react-router';
 import { Container, TabBar } from 'amazeui-dingtalk';
 
-import '../style/app.styl';
+import '../style/app.scss';
 
 // Pages
 import Index from './pages/Index';

@@ -22,7 +22,9 @@
   },
   "devDependencies": {
     "open-cli": "^1.0.5",
-    "rimraf": "^2.5.4"
+    "rimraf": "^2.5.4",
+    "node-sass": "^3.11.0",
+    "sass-loader": "^4.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
